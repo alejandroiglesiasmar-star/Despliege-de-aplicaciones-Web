@@ -2,9 +2,9 @@ name: Mi Primer Pipeline
 
 on:
   push:
-    branches: [ "main" ] # o "master", según tu rama principal
+    branches: [ "master" ] 
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
